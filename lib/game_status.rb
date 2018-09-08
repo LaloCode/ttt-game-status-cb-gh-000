@@ -20,10 +20,9 @@ def won?(board)
     if (board[combinations[0]] == 'X' && board[combinations[1]] == 'X' && board[combinations[2]] == 'X') || (board[combinations[0]] == 'O' && board[combinations[1]] == 'O' && board[combinations[2]] == 'O')
       return combinations
       break
-    else
-      return false
     end
   end
+  return false
 end
 
 def full?(board)
