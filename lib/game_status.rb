@@ -21,7 +21,7 @@ def won?(board)
       return combinations
     end
   end
-  return false
+  false
 end
 
 def full?(board)
